@@ -1,0 +1,20 @@
+<templateSet group="JavaScript">
+  <template name="cl" value="console.log($PARAM$);$END$" description="console.log()" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="af" value="($PARAM$) =&gt; $END$" description="arrow function" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="at" value="export const $PARAM$ = (): AppThunk =&gt; {&#10;  return async (dispatch) =&gt; {&#10;    $END$&#10;  };&#10;}" description="App Thunk" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
