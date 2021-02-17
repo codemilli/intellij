@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account id="393bca57-94b3-489f-b07f-d43cb8f92396" name="codemilli">
+      <server useHttp="false" host="oss.navercorp.com" />
+    </account>
+  </component>
+</application>
