@@ -13,6 +13,7 @@
       <mapping ext="swf" type="PLAIN_TEXT" />
       <mapping ext="pyd" type="PLAIN_TEXT" />
       <mapping ext="prod" type="PLAIN_TEXT" />
+      <mapping pattern="contemporary" type="TypeScript" />
       <mapping ext="mxi" type="XML" />
       <removed_mapping ext="gql" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
