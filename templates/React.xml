@@ -17,4 +17,10 @@
       <option name="JSX_HTML" value="true" />
     </context>
   </template>
+  <template name="fcs" value="import React from 'react';&#10;import styled from 'styled-components';&#10;&#10;interface $PARAM$Props {}&#10;&#10;const $PARAM$: React.FC&lt;$PARAM$Props&gt; = () =&gt; {&#10;  return (&#10;    &lt;Container&gt;$END$&lt;/Container&gt;&#10;  );&#10;}&#10;&#10;const Container = styled.div``;&#10;&#10;export default $PARAM$;" description="function component with styled" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
