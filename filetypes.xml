@@ -16,6 +16,7 @@
       <mapping pattern="contemporary" type="TypeScript" />
       <mapping ext="mxi" type="XML" />
       <removed_mapping ext="gql" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="rs" approved="true" type="Android RenderScript" />
     </extensionMap>
   </component>
 </application>
