@@ -17,6 +17,7 @@
       <mapping ext="mxi" type="XML" />
       <removed_mapping ext="gql" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="rs" approved="true" type="Android RenderScript" />
+      <removed_mapping pattern=".env" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
