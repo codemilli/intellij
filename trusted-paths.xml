@@ -3,6 +3,7 @@
     <option name="TRUSTED_PATHS">
       <list>
         <option value="$USER_HOME$/navercorp" />
+        <option value="$USER_HOME$/scala" />
       </list>
     </option>
   </component>
